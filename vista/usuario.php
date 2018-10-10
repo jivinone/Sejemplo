@@ -128,16 +128,16 @@ require 'header.php';
     </div><!-- /.content-wrapper -->
   <!--Fin-Contenido-->
 <?php
-}
-else
-{
-  require 'noacceso.php';
-}
+//}
+//else
+//{
+//  require 'noacceso.php';
+//}
 require 'footer.php';
 ?>
 
 <script type="text/javascript" src="scripts/usuario.js"></script>
 <?php 
-}
-ob_end_flush();
+//}
+//ob_end_flush();
 ?>

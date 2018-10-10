@@ -1,6 +1,6 @@
 <?php
 session_start(); 
-require_once "../modelos/Usuario.php";
+require_once "../modelo/Usuario.php";
 
 $usuario=new Usuario();
 
@@ -94,7 +94,7 @@ switch ($_GET["op"]){
 
 	case 'permisos':
 		//Obtenemos todos los permisos de la tabla permisos
-		require_once "../modelos/Permiso.php";
+		require_once "../modelo/Permiso.php";
 		$permiso = new Permiso();
 		$rspta = $permiso->listar();
 
